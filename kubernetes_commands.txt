@@ -1,0 +1,26 @@
+    1  history
+    2  clear
+    3  kubectl
+    4  minikube
+    5  kubectl version
+    6  kubectl version --output=yaml
+    7  minikube start
+    8  minikube status
+    9  docker ps
+   10  kubectl get pds
+   11  kubectl get pods
+   12  kubectl get nodes
+   13  minikube dashboard
+   14  kubectl get pods
+   15  kubectl dashboard
+   16  histoyr
+   17  history
+   18  kubectl config
+   19  kubectl config view
+   20  sudo apt-get install bash-completion
+   21  sudo curl -L https://raw.githubusercontent.com/docker/cli/master/contrib/completion/bash/docker -o /etc/bash_completion.d/docker
+   22  source ~/.bashrc
+   23  echo 'source <(kubectl completion bash)' >>~/.bashrc
+   24  echo 'source <(kubectl completion bash)'
+   25  kubectl config view
+   26  history
