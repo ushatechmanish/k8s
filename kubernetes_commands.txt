@@ -24,3 +24,121 @@
    24  echo 'source <(kubectl completion bash)'
    25  kubectl config view
    26  history
+ 1  kubectl get all
+    2  kubectl get pods
+    3  kubectl get deployment
+    4  kubectl get deployments
+    5  curl -fsSL https://downloads.k8slens.dev/keys/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/lens-archive-keyring.gpg > /dev/null
+    6  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lens-archive-keyring.gpg] https://downloads.k8slens.dev/apt/debian stable main" | sudo tee /etc/apt/sources.list.d/lens.list > /dev/null
+    7  sudo apt update && sudo apt install lens
+    8  dpkg --print-architecture
+    9  sudo apt update
+   10  cat /etc/apt/sources.list.d/lens.list
+   11  sudo apt install -y gnupg ca-certificates curl
+   12  curl -fsSL https://downloads.k8slens.dev/apt/debian/dists/stable/main/binary-amd64/Packages
+   13  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lens-archive-keyring.gpg] https://downloads.k8slens.dev/apt/debian stable main" | sudo tee /etc/apt/sources.list.d/lens.list > /dev/null
+   14  sudo apt update && sudo apt install lens
+   15  lens --version
+   16  apt list --installed | grep lens
+   17  which lens
+   18  curl -LO https://downloads.k8slens.dev/apt/debian/pool/main/l/lens/lens_<version>_amd64.deb
+   19  sudo dpkg -i lens_<version>_amd64.deb
+   20  sudo apt-get -f install  # Resolve any dependencies
+   21  lens --version
+   22  where snap
+   23  sudo apt install snapd
+   24  sudo snap install kontena-lens --classic
+   25  kontena-lens
+   26  alias lens='kontena-lens' >> ~/.bashrc
+   27  source ~/.bashrc
+   28  lens
+   29  nano ~/,bashrc
+   30  nano ~/.bashrc
+   31  vi ~/.bashrc
+   32  source ~/.bashrc
+   33  lens
+   34  kontena-lens
+   35  vi ~/.bashrc
+   36  lens
+   37  source ~/.bashrc
+   38  lens
+   39  vi ~/.bashrc
+   40  source ~/.bashrc
+   41  lens
+   42  vi ~/.bashrc
+   43  alias
+   44  which kontena-lens
+   45  kontena-lens
+   46  snap list kontena-lens
+   47  sudo snap remove kontena-lens
+   48  sudo snap install kontena-lens --classic
+   49  kontena-lens
+   50  ls -l /home/manish/
+   51  rm /home/manish/Desktop
+   52  rm /home/manish/Documents
+   53  rm /home/manish/Downloads
+   54  rm /home/manish/Music
+   55  rm /home/manish/Pictures
+   56  rm /home/manish/Public
+   57  rm /home/manish/Templates
+   58  rm /home/manish/Videos
+   59  mkdir /home/manish/Desktop
+   60  mkdir /home/manish/Documents
+   61  mkdir /home/manish/Downloads
+   62  mkdir /home/manish/Music
+   63  mkdir /home/manish/Pictures
+   64  mkdir /home/manish/Public
+   65  mkdir /home/manish/Templates
+   66  mkdir /home/manish/Videos
+   67  ls -l /home/manish/
+   68  kontena-lens
+   69  clear
+   70  alias
+   71  lens
+   72  which lens
+   73  rm /home/manish/Desktop
+   74  rm /home/manish/Documents
+   75  rm /home/manish/Downloads
+   76  rm /home/manish/Music
+   77  rm /home/manish/Pictures
+   78  rm /home/manish/Public
+   79  rm /home/manish/Templates
+   80  rm /home/manish/Videos
+   81  mkdir /home/manish/Desktop
+   82  mkdir /home/manish/Documents
+   83  mkdir /home/manish/Downloads
+   84  mkdir /home/manish/Music
+   85  mkdir /home/manish/Pictures
+   86  mkdir /home/manish/Public
+   87  mkdir /home/manish/Templates
+   88  mkdir /home/manish/Videos
+   89  ls -l /home/manish/
+   90  lens
+   91  which lens
+   92  kontena-lens
+   93  ls -l /home/manish/
+   94  kontena-lens
+   95  vi ~/.bashrc
+   96  kontena-lens
+   97  sudo snal remove kontana-lens
+   98  sudo snap remove kontana-lens
+   99  sudo snap install kontana-lens
+  100  sudo snap remove kontena-lens
+  101  sudo snap install kontena-lens --classic
+  102  kontena-lens
+  103  minkube status
+  104  minikube status
+  105  minikube stop
+  106  minikube -v
+  107  minikube version
+  108  kubectl -v
+  109  kubectl version
+  110  kubectl --v
+  111  kubectl -v
+  112  kubectl --version
+  113  kubectl --v
+  114  kubectl -v
+  115  kubectl version
+  116  minikube start
+  117  sudo snap remove kontena-lens
+  118  history
